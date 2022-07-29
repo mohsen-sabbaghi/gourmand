@@ -25,7 +25,6 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <mapstruct.version>1.5.1.Final</mapstruct.version>
-
     </properties>
 
     <dependencies>
@@ -84,19 +83,16 @@
             <artifactId>swagger-annotations</artifactId>
             <version>2.2.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.6.9</version>
         </dependency>
-
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-data-rest</artifactId>
             <version>1.6.9</version>
         </dependency>
-
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
